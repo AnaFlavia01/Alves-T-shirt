@@ -1,0 +1,168 @@
+body {
+    background-color: #000;
+}
+
+.cabecalho {
+    background-color: #000000;
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    gap: 10px;
+}
+
+.navbar-brand {
+    color: #761bcc;
+}
+
+.btn {
+    background-color: #761bcc;
+}
+
+.cards {
+    padding-top: 50px;
+}
+
+/*BOTAO*/
+.btn2 {
+    display: flex;
+    --fancy-button-gradient-0: #8d49fd;
+    --fancy-button-gradient-50: #7f56f3;
+    --fancy-button-gradient-100: #5691f3;
+    --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+    --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+    --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+    --fancy-button-shine-top: #e9d1ff;
+    --fancy-button-shine-bottom: #adfff9;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 100px;
+    padding-left: 13px;
+    appearance: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 25px;
+    color: #fff;
+    background-image: linear-gradient(
+            to bottom,
+            var(--fancy-button-gradient-0) 0%,
+            var(--fancy-button-gradient-50) 50%,
+            var(--fancy-button-gradient-100) 100%
+    );
+    box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15),
+    0px 2px 8px rgba(9, 12, 60, 0.15),
+    0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+    inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+    inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+}
+
+
+.alert {
+    margin-top: 5px;
+    background-color: #761bcc;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-img-top {
+    background-color: #761bcc;
+}
+
+.card-body {
+    background-color: rgb(237, 237, 237);
+}
+
+.promocao {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #460683;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.img-fluid {
+    background-color: #0c0c0c;
+}
+
+.txtpromo {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #8d49fd;
+    width: 200px;
+    padding-top: 15px;
+}
+
+.dicas {
+    background-color: #460683;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+
+.txtdica {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #8d49fd;
+    width: 200px;
+    padding-top: 15px;
+}
+
+.dicaCards {
+    background-color: #0c0c0c;
+}
+
+.cardsDica {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #460683;
+}
+
+.fundoTexto {
+    background-color: #460683;
+    border: none;
+}
+
+.fotoDescricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDica {
+    border-radius: 50%;
+}
+
+.imgDica{
+    height: 150px;
+    width: 150px;
+}
+
+.cssrodape{
+    margin-top: 100px;
+    border-style: inset;
+    background-color:#000000;
+    color:#fff;
+    text-align:center;
+    padding:20px 0;
+    font-size:14px;
+}

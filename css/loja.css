@@ -1,0 +1,97 @@
+body {
+    background-color: #000;
+}
+
+.cabecalho {
+    background-color: #000000;
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    gap: 10px;
+}
+
+.navbar-brand {
+    color: #761bcc;
+}
+
+.btn {
+    background-color: #761bcc;
+}
+
+.cards {
+    padding-top: 50px;
+}
+
+.alert{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 150px;
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: #000000;
+
+}
+
+
+/*BOTAO*/
+.btn2 {
+    display: flex;
+    --fancy-button-gradient-0: #8d49fd;
+    --fancy-button-gradient-50: #7f56f3;
+    --fancy-button-gradient-100: #5691f3;
+    --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+    --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+    --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+    --fancy-button-shine-top: #e9d1ff;
+    --fancy-button-shine-bottom: #adfff9;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 100px;
+    padding-left: 13px;
+    appearance: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 25px;
+    color: #fff;
+    background-image: linear-gradient(
+            to bottom,
+            var(--fancy-button-gradient-0) 0%,
+            var(--fancy-button-gradient-50) 50%,
+            var(--fancy-button-gradient-100) 100%
+    );
+    box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15),
+    0px 2px 8px rgba(9, 12, 60, 0.15),
+    0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+    inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+    inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+}
+
+
+
+.card-img-top {
+    background-color: #761bcc;
+}
+
+.card-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.cssrodape{
+    margin-top: 100px;
+    border-style: inset;
+    background-color:#000000;
+    color:#fff;
+    text-align:center;
+    padding:20px 0;
+    font-size:14px;
+}
+
